@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="E:\projects\QR code generator\favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="E:\projects\QR code generator\favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="E:\projects\QR code generator\favicon_io/favicon-16x16.png">
+<link rel="manifest" href="E:\projects\QR code generator\favicon_io/site.webmanifest">
+    <title>Qr Code Generator</title>
+  </head>
+  <body>
+    <section>
+      <div class="heading">
+        <h1>Qr Code Generator</h1>
+      </div>
+      <div class="qrcode-container">
+        <canvas id="canvas"> </canvas>
+        <input type="text" class="message" id="message" />
+        <button class="button" id="generate-button">Generate</button>
+        <button class="button" id="print-button">Print</button>
+      </div>
+    </section>
+
+    <script src="./qrcode.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
